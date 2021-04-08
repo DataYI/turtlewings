@@ -1,8 +1,10 @@
 import turtlewings as tw
 
-tw.show_axes(grid=True, label=True)
+tw.wings.using()
 
-t = tw.Turtle()
+import turtle
 
-# dongturtle.grid(False)
+t = turtle.Turtle()
+t.circle(100)
+
 tw.done()
